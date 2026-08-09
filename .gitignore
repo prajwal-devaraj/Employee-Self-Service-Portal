@@ -1,0 +1,38 @@
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+
+# Node
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+pnpm-debug.log*
+npm-debug.log*
+
+# Build / data
+dist/
+build/
+*.log
+postgres-data/
+redis-data/
