@@ -11,7 +11,7 @@ dependencies = [
   "fastapi==0.140.6",
   "uvicorn[standard]>=0.35,<0.36",
   "sqlalchemy[asyncio]>=2.0.43,<2.1",
-  "asyncpg>=0.30,<0.31",
+  "asyncpg>=0.30,<0.32",
   "alembic>=1.16,<1.17",
   "pydantic>=2.11,<3",
   "pydantic-settings>=2.10,<3",
