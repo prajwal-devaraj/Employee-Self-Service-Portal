@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const internalApiUrl = process.env.INTERNAL_API_URL;
 
 const nextConfig: NextConfig = {
-  output: "standalone",
+  output: process.env.VERCEL ? undefined : "standalone",
   poweredByHeader: false,
   reactStrictMode: true,
 
